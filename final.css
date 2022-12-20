@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    Font-family: sans-serif;
+}
+.tag {
+    background: url(4.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+   
+
+}
+.tag2{
+    display: flex;
+    width: 40;
+    margin:auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.tag2:hover{
+   color: black;
+    text-decoration: underline;
+}
+.logo{
+    cursor: pointer; 
+    border-radius: 50px;
+    background-size: cover;
+}
+.tag2 ul li a.active,
+.tag2 ul li a:hover{
+    background:#344D67;
+    border-radius: 4px;
+
+
+}
+
+
+
+.tag2 ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+
+} 
+.tag2 ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.tag3 {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align:center;
+}
+.tag3 h1 {
+    font-size: 65px;
+}
+.tag3 p {
+    margin: 20px auto;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight: 600px;
+    background-color:#344D67;
+    font-size: 17px;
+}
+
+.Form-başlık {
+   text-align: center ;
+   font-size: 40px;
+   color: #fff;
+  
+
+    
+}
+.iletişim.form{
+    width: 520px;
+    margin: auto;
+}
+.iletişim.form label ,
+.iletişim.form input ,
+.iletişim.form select{
+  display: block;
+  width: 100%;
+  margin-top: 35px;
+}
+.iletişim.form[type="submit"]{
+    display: block;
+    margin-top: 35px;
+}
+.iletişim.form input
+.iletişim.form select{
+    border: 2px solid white;
+    padding: 15px 15px
+    ;
+}
+.btn2{
+    width: 180px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 22px;
+    text-align: center;
+    color: white;
+    background-color: cornflowerblue;
+    font-weight: 600px;
+    cursor: pointer;font-size: 19px;
+}
+.iletişim {
+    padding-top: 8px;
+
+}
+label {
+    font-size: 28px;
+}
+.scn1{
+    display: flex;
+    justify-content:space-around;
+    margin: 200px 0;
+    
+}
+.card{
+    width: 20%;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    border-radius: 6px;
+    background-color: #fff;
+ 
+
+}
+.card:hover{
+    opacity: 0.7;
+   
+}
+.card{
+    margin: 5px 20px;
+    text-align: center;
+
+}
+img{ 
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    height: 50%;
+}
+p{ font-size: 19px;}
+.scn2 {
+    display:flex;
+    justify-content: space-around;
+    margin: 200px 0;
+}
+.resim{
+    height: 100;
+    width: 100;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(4.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#manga2 {
+    border:7px solid #fff;
+    border-left-color: #FF731D;
+    margin: 15px;
+    padding: 15px;
+}
+.tag15{
+    color: black;
+
+}
+#tag16{
+    background-color: #ff9e9e;
+}
+.scn3{
+    display: flex
+    ;
+    justify-content: space-between;
+    margin: 200px 10px;
+}
+.death{
+    width: 80%;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    border-radius: 6px;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.death:hover {
+    opacity: 0.7;
+}
+.container{
+    padding: 5px 20px;
+}
+.container p {
+    margin: 15px 0;
+    font-size: 10px;
+}
+.death{
+    display: inline-block;
+    background-color: #AEBDCA;
+    width: 200px;
+    height: 250px;
+}
+.scn4 {
+display: flex;
+justify-content: space-between;
+margin: 200px 10px
+}
+.scn5 {
+    display: flex;
+justify-content: space-between;
+margin: 200px 10px
+}
+.scn6 {
+    display: flex;
+justify-content: space-between;
+margin: 200px 10px
+}
+.scn7 {
+    display: flex;
+justify-content: space-between;
+margin: 200px 10px
+}
+
+
