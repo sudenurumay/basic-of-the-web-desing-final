@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+    Font-family: sans-serif;
+}
+/* cizgi-roman.html */
+.tag {
+    background: url(4.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+   
+
+}
+.tag2{
+    display: flex;
+    width: 40;
+    margin:auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.tag2:hover{
+   color: black;
+    text-decoration: underline;
+}
+.logo{
+    cursor: pointer; 
+    border-radius: 50px;
+    background-size: cover;
+}
+.tag2 ul li a.active,
+.tag2 ul li a:hover{
+    background:#344D67;
+    border-radius: 4px;
+
+
+}
+
+
+
+.tag2 ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+
+} 
+.tag2 ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.tag3 {
+    width: 100%;
+    position: absolute;  
+    top: 40%;
+    color: white;
+    text-align:center;
+}
+.tag3 h1 {
+    font-size: 65px;
+}
+.tag3 p {
+    margin: 20px auto;
+}
+.buton1{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight: 600px;
+    background-color:#344D67;
+    font-size: 17px;
+}
+/* bitiş */
+
+.Form-başlık {
+   text-align: center ;
+   font-size: 40px;
+   color: #fff;
+  
+
+    
+}
+.iletişim.form{
+    width: 520px;
+    margin: auto;
+}
+.iletişim.form label ,
+.iletişim.form input ,
+.iletişim.form select{
+  display: block;
+  width: 100%;
+  margin-top: 35px;
+}
+.iletişim.form[type="submit"]{
+    display: block;
+    margin-top: 35px;
+}
+.iletişim.form input
+.iletişim.form select{
+    border: 2px solid white;
+    padding: 15px 15px
+    ;
+}
+.btn2{
+    width: 180px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 22px;
+    text-align: center;
+    color: white;
+    background-color: cornflowerblue;
+    font-weight: 600px;
+    cursor: pointer;
+    font-size: 19px;
+}
+.iletişim {
+    padding-top: 8px;
+
+}
+label {
+    font-size: 28px;
+}
+.scn1{
+    display: flex;
+justify-content: space-around;
+ margin: 200px 0;
+
+}
+.card{
+    margin: 300px 50px
+    ;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    width: 20%;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.card:hover{
+    opacity: 0.7;
+   
+}
+.card{
+    margin: 5px 20px;
+    text-align: center;
+    
+}
+img{ 
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    height: 50%;
+}
+p{ font-size: 19px;}
+.scn2 {
+    display:flex;
+    justify-content: space-around;
+margin: 200px 0;
+
+}
+.resim{
+    height: 100;
+    width: 100;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(4.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#manga2 {
+    border: 5px solid white ;
+    border-left-color: white;
+    margin: 15px;
+    padding: 15px;
+    
+    font-size: 10ps
+    ;
+}
+.tag15{
+    color: black;
+
+}
+
+.scn3{
+    display: flex ;
+   
+    justify-content: space-between;
+    margin: 200px 10px;
+    
+
+   
+}
+.death{
+    width: 80%;
+    font-size: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 200px 50px;
+
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    width: 20%;
+    border-radius: 6px;
+    background-color: #fff;
+
+}
+   
+
+.death:hover {
+    opacity: 0.7;
+}
+.container{
+    padding: 5px 20px;
+}
+.container p {
+    margin: 15px 0;
+    font-size: 10px;
+}
+.death{
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+ margin: 0px auto;}
+.scn4 {
+display: flex;
+justify-content: space-between;
+margin: 200px 10px;
+}
+.scn5 {
+ display: flex;
+justify-content: space-between;
+margin: 200px 10px;
+}
+.scn6 {
+display: flex;
+justify-content: space-between;
+margin: 200px 10px;
+
+}
+.scn7 {
+display: flex;
+justify-content: space-between;
+margin: 200px 10px;
+}
+
+    .tag26{
+        font-family: Arial, sans-serif;
+	font-size: 24px;
+	padding: auto;
+    border-left: 10px solid #FF731D;}
+ 
+
+    
+
+
+.tag15 :hover{
+    opacity: 0.7;
+}
+.nav {
+    border-left: 10px solid #82CD47;
+
+}
+.nav2{
+ border-left: 10px solid #62B6B7;
+}
+.tag34{ border-left: 10px solid #FF731D
+
+    
+
+}
+#tag33{
+    background: url(40.jpg);
+    height: 100%;
+    background-size: 100;
+    background-image: url(40.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+   
+}
+.tag34{border-left: 10px solid #FF731D
+
+}
+.baslik2{border-left: 10px solid #F0FF42;
+
+}
+.baslik3{border-left: 10px solid #82CD47;
+
+
+}
+.baslik4{
+    border-left: 10px solid #62B6B7;
+
+
+}
+.baslik5{
+    border-left: 10px solid #2146C7;
+}
+.baslik6{
+    border-left: 10px solid #FF7D7D;
+}
+.ornek2{
+     
+    width: 900px;
+    margin:0;
+    }
+    
+    .elf{
+        float:left;
+padding:0 10px 10px 0;
+width: 300px;
+    }
+     
+.tablo{
+   
+        width:300px;
+        margin:200px auto;
+        table-layout:fixed;
+        border-collapse:collapse;
+        text-align: center;
+
+    
+    
+  
+    
+
+}
+tr:nth-child(odd) {
+    background:#DDD;
+}
+.tablo:hover{
+opacity: 0.7;
+}
+.tag99 {
+    background: url(4.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+   
+
+}
+.logo2{
+    float: right;
+     width: 200px;
+     height: 50px;
+     margin: -100px 40px;
+}
+.baslik7{
+    border-left: 10px solid #FEA1BF;
+}
+.baslik8{
+    border-left: 10px solid #0014FF;
+}
+.baslik9{
+    border-left: 10px solid #FD841F;
+}
+.baslik10{
+    border-left: 10px solid #FCE700;
+}
+.baslik11{
+    border-left: 10px solid #82CD47;
+} 
+.baslik13{
+    border-left: 10px solid #FEA1BF;
+}
+.baslik14{
+    border-left: 10px solid #0014FF;
+}
+.baslik15{
+    border-left: 10px solid #FD841F;
+}
+.baslik15{
+    border-left: 10px solid #FCE700;
+}
+.baslik16{
+    border-left: 10px solid #82CD47;
+} 
+.tag75{
+    background: url(4.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(4.jpg);
+    background-position:initial;
+    background-size: cover;
+}
+
+/* MANGA.HTML */
+#black{  
+    background: url(manga7.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(manga7.jpg);
+    background-position:initial;
+    background-size: cover;
+
+}
+.scn20{
+    display: flex;
+justify-content: space-around;
+ margin: 200px 0;
+
+}
+.card20{
+    margin: 100px 50px
+    ;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    width: 90%;
+    height: 0pc;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.card20:hover{
+    opacity: 0.7;
+   
+}
+.card20{
+    margin: 0px 50px;
+   
+    
+}
+
+p{ font-size: 19px;}
+.scn20 {
+    display:flex;
+    justify-content: space-around;
+margin: 100px 0px;
+
+}
+/* MARVEL.HTML */
+#black2{  
+    background: url(marvel\ .htm.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(marvel\ .htm.jpg);
+    background-position:initial;
+    background-size: cover;
+  
+
+ 
+
+  
+}
+.scn21{
+    display: flex;
+justify-content: space-around;
+ margin: 200px 0;
+
+}
+.card21{
+    margin: 100px 50px
+    ;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    width: 90%;
+    height: 140pc;
+    border-radius: 6px;
+    background-color: #fff;
+ 
+}
+.card21:hover{
+    opacity: 0.7;
+   
+}
+.card21{
+    margin: 100px 50px;
+   
+    
+}
+img{ 
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    height: 50%;
+}
+
+.scn21 {
+    display:flex;
+    justify-content: space-around;
+margin: 20px 0px;
+}
+/* NARUTO.HTML */
+
+.black3{  
+    background: url(marvel\ .htm.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(marvel\ .htm.jpg);
+    background-position:initial;
+    background-size: cover;
+  
+
+ 
+
+  
+}
+.scn22{
+    display: flex;
+justify-content: space-around;
+ margin: 20px 0;
+
+}
+.card22{
+    margin: 80px 50px
+    ;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    width: 90%;
+    height: 115pc;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.card22{
+    margin: 0px 60px;
+   
+    
+}
+
+
+
+.scn22{
+    display:flex;
+    justify-content: space-around;
+margin: 100px 0px;
+}
+
+
+  .black4{  
+    background: url(naruto-ans.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(naruto-ans.jpg);
+    background-position:center;
+    background-size: cover;
+  
+
+ 
+
+  
+}
+
+
+.card23{
+    margin: 100px 50px
+    ;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    width: 90%;
+    height: 30pc;
+    border-radius: 6px;
+    background-color: #fff;
+ 
+}
+.card23:hover{
+    opacity: 0.7;
+   
+}
+.card23{
+    margin: 20px 50px;
+   
+    
+}
+img{ 
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    height: 50%;
+}
+
+.scn23 {
+    display:flex;
+    justify-content: space-around;
+margin: 20px 0px;
+}
+
+.black5{  
+    background: url(naruto-ans.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(naruto-ans.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.scn24{
+    display: flex;
+justify-content: space-around;
+ margin: 20px 0;
+
+}
+.card24{
+    margin: 100px 50px
+    ;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    width: 100%;
+    height: 40pc;
+    border-radius: 6px;
+    background-color: #fff;
+ 
+}
+.card24:hover{
+    opacity: 0.7;
+   
+}
+.card24{
+    margin: 20px 50px;
+   
+    
+}
+
+
+.scn24 {
+    display:flex;
+    justify-content: space-around;
+margin: 100px 0px;
+}
+.black6{  
+    background: url(naruto-ans.jpg);
+    height: 100vh;
+    background-size: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(naruto-ans.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.scn25{
+    display: flex;
+justify-content: space-around;
+ margin: 20px 0;
+
+}
+.card25{
+    margin: 100px 50px
+    ;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    width: 100%;
+    height: 90pc;
+    border-radius: 6px;
+    background-color: #fff;
+ 
+}
+.card25:hover{
+    opacity: 0.7;
+   
+}
+.card25{
+    margin: 20px 50px;
+   
+    
+}
+.scn25 {
+    display:flex;
+    justify-content: space-around;
+margin: 100px 0px;
+}
+.card26:hover{
+    opacity: 0.7;
+   
+}
+.card26{
+    margin: 10px 50px;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    width: 90%;
+    height: 90pc;
+    border-radius: 6px;
+    background-color: #fff;
+ 
+}
+.card26:hover{
+    opacity: 0.7;
+   
+}
+.sayfa1 button{
+    border: none;
+    padding: 8px 16px;
+    color: black;
+    background-color:#FF731D;
+    font-size: large;
+    
+}
+.sayfa1 table{
+
+margin-right: auto;
+margin-left: auto;
+}
+.sayfa1 table tr{
+    margin-left: 2%;
+}
+.sayfa1 a{
+    color: black;
+    padding: 8px 16px;
+    background-color: #FF731D;
+    font-size: large;
+    text-decoration: none;
+}
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+    margin: 0px 0px;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:20px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+    
+ 
